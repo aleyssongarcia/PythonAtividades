@@ -1,6 +1,9 @@
 # 1 - Crie duas strings e concatene as duas em uma terceira string
-# 2 - Soma/multiplicação/divisão/modulo
-# Calcule o metro quadrado utilizando 3 variaveis
-nome = 'aley' + 'sson'
-print(type(nome))
-print(nome)
+
+# nome = 'aley' + 'sson'
+# print(type(nome))
+# print(nome)
+
+nome = input('primeira string: ')
+sobre = input('segunda string: ')
+print(str(nome) + str(sobre))
