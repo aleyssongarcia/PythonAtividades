@@ -1,9 +1,7 @@
-#Solicite ao usuario um valor numerico, inteiro ou real, e escrever se é positivo ou negativo (considere o valor de zero como positivo)
+"""
+Faça um Programa que peça o raio de um círculo, calcule e
+ mostre sua área. 
+"""
 
-
-valor = float(input("Digite um valor numérico: "))
-
-if valor >= 0:
-    print("O valor é positivo")
-else:
-    print("O valor é negativo")
+raio = float(input("Digite o valor do raio do círculo: "))
+print(f"A área do círculo é: {(raio**2)*3.14:.2f}")
